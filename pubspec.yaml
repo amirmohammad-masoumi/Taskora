@@ -1,0 +1,27 @@
+name: taskora
+description: A premium offline task planner.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_local_notifications: ^23.0.2
+  flutter_timezone: ^5.1.1
+  shared_preferences: ^2.5.3
+  timezone: ^0.11.2
+  material_ui: ^1.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/taskora_logo.png
