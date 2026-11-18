@@ -1,17 +1,32 @@
-# taskora
+# Taskora
 
-A new Flutter project.
+Taskora is a cross-platform task and productivity application built with Flutter. It helps users plan work, organize daily activities, track progress, and stay focused through a clean and intuitive interface.
+
+## Features
+
+- Create and manage tasks
+- Organize tasks by date and priority
+- Track completed and upcoming activities
+- Receive reminders and notifications
+- Use an English or Persian interface
+
+## Platforms
+
+- Android
+- Windows
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- Android SDK for Android builds
+- Visual Studio with the Desktop development with C++ workload for Windows builds
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
